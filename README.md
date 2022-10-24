@@ -1,8 +1,4 @@
 # Overview
-
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of your app.  Describe how to use the app.}
 Welcome to my flutter app!  The code on this repository is all about an app I made in Flutter.  I was curious about what FLutter was so I decided to put something small together to see how the Flutter framework worked.  Like the title of the repo sayas, this is a calculator appiclation.  It can do simple math wit addition, subtraction, multiplication, and division.  Now this app is nothing fancy.  It was a fun little project to just explore the world of making apps through Flutter.  I have learned that Flutter can be really useful in making apps that work for both Android and IOS devices.  
 
 Now this app may not be the prettiest thing on the block.  If I were to send this to the app store, I would have to make more improvemnets to the styling of the app and possible add more features.  One fun tings to note, was I had previous code that I made using the Dart language.  Now Dart is used with Flutter and kinda acts like Javascipt.  The program I had previously was a calculator in the terminal.  It worked fine, but I wanted to see if I could get it to work on a user interface and I have successfully done so.  I would not say that it is finished.  It can use some work to make it prettier, but for now it was a great thing to explore over the two weeks I play around with this software.  I hope to make more imporvements in the future if time allows.
@@ -17,12 +13,11 @@ With Android Studios, I used a langauge called Dart.  This language was supposed
 
 # Useful Websites
 During this project I found a few sites that helped me learn various things about Flutter.
+* [Intro To Flutter Series]([https://stackoverflow.com/questions/52046840/multiple-rows-in-body-of-flutter-application](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ))
 * [StackOverflow: Multiple Rows](https://stackoverflow.com/questions/52046840/multiple-rows-in-body-of-flutter-application)
 * [StackOverflow: Detecting Gestures](https://stackoverflow.com/questions/43692923/flutter-container-onpressed)
 
 # Future Work
+* Improve the Styling of the Interface
+* Add more functionality like decimal numbers and making number negative.
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
