@@ -3,7 +3,7 @@ Welcome to my flutter app!  The code on this repository is all about an app I ma
 
 Now this app may not be the prettiest thing on the block.  If I were to send this to the app store, I would have to make more improvemnets to the styling of the app and possible add more features.  One fun tings to note, was I had previous code that I made using the Dart language.  Now Dart is used with Flutter and kinda acts like Javascipt.  The program I had previously was a calculator in the terminal.  It worked fine, but I wanted to see if I could get it to work on a user interface and I have successfully done so.  I would not say that it is finished.  It can use some work to make it prettier, but for now it was a great thing to explore over the two weeks I play around with this software.  I hope to make more imporvements in the future if time allows.
 
-[Calculator Demo Video ](http://youtube.link.goes.here)
+[Calculator Demo Video ](http://youtu.be/t1TVvTAGH7k?hd=1)
 
 # Development Environment
 
