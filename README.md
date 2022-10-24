@@ -13,7 +13,7 @@ With Android Studios, I used a langauge called Dart.  This language was supposed
 
 # Useful Websites
 During this project I found a few sites that helped me learn various things about Flutter.
-* [Intro To Flutter Series]([https://stackoverflow.com/questions/52046840/multiple-rows-in-body-of-flutter-application](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ))
+* [Intro To Flutter Series](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)
 * [StackOverflow: Multiple Rows](https://stackoverflow.com/questions/52046840/multiple-rows-in-body-of-flutter-application)
 * [StackOverflow: Detecting Gestures](https://stackoverflow.com/questions/43692923/flutter-container-onpressed)
 
