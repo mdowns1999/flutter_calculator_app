@@ -11,7 +11,7 @@ class Calculator {
   var inputValues = ['0'];
   var calcValues = [];
   String display = "0";
-  var doubleValue = 0.0;
+  var doubleValue = 0.00;
   String strValue = "";
   Number number = Number();
   String prevInput = "";
@@ -24,7 +24,6 @@ class Calculator {
     //If User wants to clear the calculator
     if (input == "C") {
       clear();
-      //doubleValue = 0.0;
     } else {
       //Here we check if an input is a math symbol.  Based on the input,
       //we will convert the number to a int then start creating the next input value.
@@ -60,7 +59,7 @@ class Calculator {
     if (input == "C") {
       doubleValue == 0.0;
       setDisplay(doubleValue);
-    } else if (doubleValue == 0.0) {
+    } else if (doubleValue == 0.00) {
       doubleValue = calcValues[0];
       setDisplay(doubleValue);
     } else {
@@ -164,7 +163,7 @@ class Calculator {
     //print("CLEAR INPUT");
 
     //Reset the Values
-    doubleValue = 0.0;
+    doubleValue = 0.00;
     prevSymbol = "";
     currentSymbol = "";
     prevInput = "";

@@ -1,7 +1,8 @@
 import 'package:first_app/calculator.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(home: Home()));
+void main() =>
+    runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Home()));
 
 class Home extends StatefulWidget {
   @override
@@ -10,11 +11,11 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final Calculator cal = new Calculator();
-  int count = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.orange,
           title: Text('Calculator App'),
           centerTitle: true,
         ),
@@ -55,9 +56,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "1",
                         style: TextStyle(
                           fontSize: 18,
@@ -80,9 +81,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "2",
                         style: TextStyle(
                           fontSize: 18,
@@ -104,9 +105,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "3",
                         style: TextStyle(
                           fontSize: 18,
@@ -128,9 +129,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "- ",
                         style: TextStyle(
                           fontSize: 18,
@@ -160,9 +161,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "4",
                         style: TextStyle(
                           fontSize: 18,
@@ -184,9 +185,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "5",
                         style: TextStyle(
                           fontSize: 18,
@@ -208,9 +209,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "6",
                         style: TextStyle(
                           fontSize: 18,
@@ -232,9 +233,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "+ ",
                         style: TextStyle(
                           fontSize: 18,
@@ -264,9 +265,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "7",
                         style: TextStyle(
                           fontSize: 18,
@@ -288,9 +289,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "8",
                         style: TextStyle(
                           fontSize: 18,
@@ -312,9 +313,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "9",
                         style: TextStyle(
                           fontSize: 18,
@@ -336,9 +337,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "/ ",
                         style: TextStyle(
                           fontSize: 18,
@@ -368,9 +369,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "0",
                         style: TextStyle(
                           fontSize: 17,
@@ -392,9 +393,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "C",
                         style: TextStyle(
                           fontSize: 17,
@@ -416,9 +417,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "=",
                         style: TextStyle(
                           fontSize: 18,
@@ -438,9 +439,9 @@ class _HomeState extends State<Home> {
                             color: Colors.black,
                             width: 1,
                           )),
-                      padding: EdgeInsets.all(40.0),
-                      margin: EdgeInsets.all(1.0),
-                      child: Text(
+                      padding: const EdgeInsets.all(40.0),
+                      margin: const EdgeInsets.all(1.0),
+                      child: const Text(
                         "* ",
                         style: TextStyle(
                           fontSize: 18,
